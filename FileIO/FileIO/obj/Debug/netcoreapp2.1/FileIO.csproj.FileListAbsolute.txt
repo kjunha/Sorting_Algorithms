@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/FileIO/FileIO/bin/Debug/netcoreapp2.1/FileIO.deps.json
+/Users/dexterkim/Projects/FileIO/FileIO/bin/Debug/netcoreapp2.1/FileIO.runtimeconfig.json
+/Users/dexterkim/Projects/FileIO/FileIO/bin/Debug/netcoreapp2.1/FileIO.runtimeconfig.dev.json
+/Users/dexterkim/Projects/FileIO/FileIO/bin/Debug/netcoreapp2.1/FileIO.dll
+/Users/dexterkim/Projects/FileIO/FileIO/bin/Debug/netcoreapp2.1/FileIO.pdb
+/Users/dexterkim/Projects/FileIO/FileIO/obj/Debug/netcoreapp2.1/FileIO.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/FileIO/FileIO/obj/Debug/netcoreapp2.1/FileIO.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/FileIO/FileIO/obj/Debug/netcoreapp2.1/FileIO.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/FileIO/FileIO/obj/Debug/netcoreapp2.1/FileIO.AssemblyInfo.cs
+/Users/dexterkim/Projects/FileIO/FileIO/obj/Debug/netcoreapp2.1/FileIO.dll
+/Users/dexterkim/Projects/FileIO/FileIO/obj/Debug/netcoreapp2.1/FileIO.pdb

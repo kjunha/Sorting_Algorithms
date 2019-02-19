@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/bin/Debug/netcoreapp2.1/SelectionSort.deps.json
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/bin/Debug/netcoreapp2.1/SelectionSort.runtimeconfig.json
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/bin/Debug/netcoreapp2.1/SelectionSort.runtimeconfig.dev.json
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/bin/Debug/netcoreapp2.1/SelectionSort.dll
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/bin/Debug/netcoreapp2.1/SelectionSort.pdb
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/obj/Debug/netcoreapp2.1/SelectionSort.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/obj/Debug/netcoreapp2.1/SelectionSort.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/obj/Debug/netcoreapp2.1/SelectionSort.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/obj/Debug/netcoreapp2.1/SelectionSort.AssemblyInfo.cs
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/obj/Debug/netcoreapp2.1/SelectionSort.dll
+/Users/dexterkim/Projects/SelectionSort/SelectionSort/obj/Debug/netcoreapp2.1/SelectionSort.pdb

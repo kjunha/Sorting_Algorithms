@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/bin/Debug/netcoreapp2.1/BubbleSort.deps.json
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/bin/Debug/netcoreapp2.1/BubbleSort.runtimeconfig.json
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/bin/Debug/netcoreapp2.1/BubbleSort.runtimeconfig.dev.json
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/bin/Debug/netcoreapp2.1/BubbleSort.dll
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/bin/Debug/netcoreapp2.1/BubbleSort.pdb
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/obj/Debug/netcoreapp2.1/BubbleSort.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/obj/Debug/netcoreapp2.1/BubbleSort.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/obj/Debug/netcoreapp2.1/BubbleSort.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/obj/Debug/netcoreapp2.1/BubbleSort.AssemblyInfo.cs
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/obj/Debug/netcoreapp2.1/BubbleSort.dll
+/Users/dexterkim/Projects/BubbleSort/BubbleSort/obj/Debug/netcoreapp2.1/BubbleSort.pdb

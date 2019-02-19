@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{BE3416A8-F69C-40C5-B536-28BFD172B351}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Music/Song.cs">
+    <Files>
+      <File FileName="Music/Song.cs" Line="4" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Music PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dexterkim/Projects/Music/Music/Song.cs" relfile="Music/Song.cs" line="7" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

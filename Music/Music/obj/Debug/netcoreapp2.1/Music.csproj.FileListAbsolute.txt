@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/Music/Music/obj/Debug/netcoreapp2.1/Music.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/Music/Music/obj/Debug/netcoreapp2.1/Music.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/Music/Music/obj/Debug/netcoreapp2.1/Music.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/Music/Music/obj/Debug/netcoreapp2.1/Music.AssemblyInfo.cs
+/Users/dexterkim/Projects/Music/Music/bin/Debug/netcoreapp2.1/Music.deps.json
+/Users/dexterkim/Projects/Music/Music/bin/Debug/netcoreapp2.1/Music.runtimeconfig.json
+/Users/dexterkim/Projects/Music/Music/bin/Debug/netcoreapp2.1/Music.runtimeconfig.dev.json
+/Users/dexterkim/Projects/Music/Music/bin/Debug/netcoreapp2.1/Music.dll
+/Users/dexterkim/Projects/Music/Music/bin/Debug/netcoreapp2.1/Music.pdb
+/Users/dexterkim/Projects/Music/Music/obj/Debug/netcoreapp2.1/Music.dll
+/Users/dexterkim/Projects/Music/Music/obj/Debug/netcoreapp2.1/Music.pdb

@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/bin/Debug/netcoreapp2.1/LinearSearch.deps.json
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/bin/Debug/netcoreapp2.1/LinearSearch.runtimeconfig.json
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/bin/Debug/netcoreapp2.1/LinearSearch.runtimeconfig.dev.json
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/bin/Debug/netcoreapp2.1/LinearSearch.dll
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/bin/Debug/netcoreapp2.1/LinearSearch.pdb
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/obj/Debug/netcoreapp2.1/LinearSearch.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/obj/Debug/netcoreapp2.1/LinearSearch.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/obj/Debug/netcoreapp2.1/LinearSearch.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/obj/Debug/netcoreapp2.1/LinearSearch.AssemblyInfo.cs
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/obj/Debug/netcoreapp2.1/LinearSearch.dll
+/Users/dexterkim/Projects/LinearSearch/LinearSearch/obj/Debug/netcoreapp2.1/LinearSearch.pdb

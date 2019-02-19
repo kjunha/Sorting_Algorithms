@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{EDC1E955-7204-4274-A66D-D05DED6138C2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuickSort/Program.cs">
+    <Files>
+      <File FileName="QuickSort/Program.cs" Line="98" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.QuickSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

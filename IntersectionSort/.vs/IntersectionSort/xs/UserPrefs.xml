@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{4DF20F1C-F6E4-45D2-8654-BE5382D06AC4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntersectionSort/Program.cs">
+    <Files>
+      <File FileName="IntersectionSort/Program.cs" Line="20" Column="38" />
+      <File FileName="../BubbleSort/BubbleSort/Program.cs" Line="141" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.IntersectionSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

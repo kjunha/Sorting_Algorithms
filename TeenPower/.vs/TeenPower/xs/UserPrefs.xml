@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{2E46C5B4-6F7A-4951-9DA8-0A8A8F05AB41}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TeenPower/Program.cs">
+    <Files>
+      <File FileName="TeenPower/Program.cs" Line="14" Column="17" />
+      <File FileName="../HelloWorld/HelloWorld/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TeenPower PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{9C9A8490-7DAE-4A4E-B9AB-CB99D6789AA3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../BubbleSort/BubbleSort/Program.cs">
+    <Files>
+      <File FileName="../BubbleSort/BubbleSort/Program.cs" Line="102" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RosterGenerator" expanded="True">
+            <Node name="RosterGenerator" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RosterGenerator FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

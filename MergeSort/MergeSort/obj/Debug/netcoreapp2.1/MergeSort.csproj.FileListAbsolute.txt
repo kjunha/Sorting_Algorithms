@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/MergeSort/MergeSort/bin/Debug/netcoreapp2.1/MergeSort.deps.json
+/Users/dexterkim/Projects/MergeSort/MergeSort/bin/Debug/netcoreapp2.1/MergeSort.runtimeconfig.json
+/Users/dexterkim/Projects/MergeSort/MergeSort/bin/Debug/netcoreapp2.1/MergeSort.runtimeconfig.dev.json
+/Users/dexterkim/Projects/MergeSort/MergeSort/bin/Debug/netcoreapp2.1/MergeSort.dll
+/Users/dexterkim/Projects/MergeSort/MergeSort/bin/Debug/netcoreapp2.1/MergeSort.pdb
+/Users/dexterkim/Projects/MergeSort/MergeSort/obj/Debug/netcoreapp2.1/MergeSort.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/MergeSort/MergeSort/obj/Debug/netcoreapp2.1/MergeSort.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/MergeSort/MergeSort/obj/Debug/netcoreapp2.1/MergeSort.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/MergeSort/MergeSort/obj/Debug/netcoreapp2.1/MergeSort.AssemblyInfo.cs
+/Users/dexterkim/Projects/MergeSort/MergeSort/obj/Debug/netcoreapp2.1/MergeSort.dll
+/Users/dexterkim/Projects/MergeSort/MergeSort/obj/Debug/netcoreapp2.1/MergeSort.pdb

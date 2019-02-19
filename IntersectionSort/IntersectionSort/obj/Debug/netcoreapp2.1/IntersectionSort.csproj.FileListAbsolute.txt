@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/bin/Debug/netcoreapp2.1/IntersectionSort.deps.json
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/bin/Debug/netcoreapp2.1/IntersectionSort.runtimeconfig.json
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/bin/Debug/netcoreapp2.1/IntersectionSort.runtimeconfig.dev.json
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/bin/Debug/netcoreapp2.1/IntersectionSort.dll
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/bin/Debug/netcoreapp2.1/IntersectionSort.pdb
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/obj/Debug/netcoreapp2.1/IntersectionSort.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/obj/Debug/netcoreapp2.1/IntersectionSort.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/obj/Debug/netcoreapp2.1/IntersectionSort.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/obj/Debug/netcoreapp2.1/IntersectionSort.AssemblyInfo.cs
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/obj/Debug/netcoreapp2.1/IntersectionSort.dll
+/Users/dexterkim/Projects/IntersectionSort/IntersectionSort/obj/Debug/netcoreapp2.1/IntersectionSort.pdb

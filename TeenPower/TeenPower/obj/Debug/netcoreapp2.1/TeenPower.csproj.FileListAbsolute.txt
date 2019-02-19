@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/TeenPower/TeenPower/obj/Debug/netcoreapp2.1/TeenPower.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/TeenPower/TeenPower/obj/Debug/netcoreapp2.1/TeenPower.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/TeenPower/TeenPower/obj/Debug/netcoreapp2.1/TeenPower.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/TeenPower/TeenPower/obj/Debug/netcoreapp2.1/TeenPower.AssemblyInfo.cs
+/Users/dexterkim/Projects/TeenPower/TeenPower/bin/Debug/netcoreapp2.1/TeenPower.deps.json
+/Users/dexterkim/Projects/TeenPower/TeenPower/bin/Debug/netcoreapp2.1/TeenPower.runtimeconfig.json
+/Users/dexterkim/Projects/TeenPower/TeenPower/bin/Debug/netcoreapp2.1/TeenPower.runtimeconfig.dev.json
+/Users/dexterkim/Projects/TeenPower/TeenPower/bin/Debug/netcoreapp2.1/TeenPower.dll
+/Users/dexterkim/Projects/TeenPower/TeenPower/bin/Debug/netcoreapp2.1/TeenPower.pdb
+/Users/dexterkim/Projects/TeenPower/TeenPower/obj/Debug/netcoreapp2.1/TeenPower.dll
+/Users/dexterkim/Projects/TeenPower/TeenPower/obj/Debug/netcoreapp2.1/TeenPower.pdb
