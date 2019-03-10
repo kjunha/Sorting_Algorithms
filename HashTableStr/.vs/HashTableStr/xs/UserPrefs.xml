@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{4C3A5452-CB8D-411D-B4E3-E432E066E2E6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HashTableStr/Program.cs">
+    <Files>
+      <File FileName="HashTableStr/Program.cs" Line="103" Column="37" />
+      <File FileName="../HashTable/HashTable/Program.cs" Line="2" Column="1" />
+      <File FileName="HashTableStr/lookup1.txt" Line="125" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HashTableStr PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
