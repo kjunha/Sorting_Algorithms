@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/obj/Debug/netcoreapp2.2/FinalProj301.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/obj/Debug/netcoreapp2.2/FinalProj301.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/obj/Debug/netcoreapp2.2/FinalProj301.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/obj/Debug/netcoreapp2.2/FinalProj301.AssemblyInfo.cs
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/bin/Debug/netcoreapp2.2/FinalProj301.deps.json
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/bin/Debug/netcoreapp2.2/FinalProj301.runtimeconfig.json
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/bin/Debug/netcoreapp2.2/FinalProj301.runtimeconfig.dev.json
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/bin/Debug/netcoreapp2.2/FinalProj301.dll
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/bin/Debug/netcoreapp2.2/FinalProj301.pdb
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/obj/Debug/netcoreapp2.2/FinalProj301.dll
+/Users/dexterkim/Projects/FinalProj301/FinalProj301/obj/Debug/netcoreapp2.2/FinalProj301.pdb

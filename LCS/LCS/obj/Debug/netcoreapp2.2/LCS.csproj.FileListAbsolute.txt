@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/LCS/LCS/bin/Debug/netcoreapp2.2/LCS.deps.json
+/Users/dexterkim/Projects/LCS/LCS/bin/Debug/netcoreapp2.2/LCS.runtimeconfig.json
+/Users/dexterkim/Projects/LCS/LCS/bin/Debug/netcoreapp2.2/LCS.runtimeconfig.dev.json
+/Users/dexterkim/Projects/LCS/LCS/bin/Debug/netcoreapp2.2/LCS.dll
+/Users/dexterkim/Projects/LCS/LCS/bin/Debug/netcoreapp2.2/LCS.pdb
+/Users/dexterkim/Projects/LCS/LCS/obj/Debug/netcoreapp2.2/LCS.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/LCS/LCS/obj/Debug/netcoreapp2.2/LCS.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/LCS/LCS/obj/Debug/netcoreapp2.2/LCS.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/LCS/LCS/obj/Debug/netcoreapp2.2/LCS.AssemblyInfo.cs
+/Users/dexterkim/Projects/LCS/LCS/obj/Debug/netcoreapp2.2/LCS.dll
+/Users/dexterkim/Projects/LCS/LCS/obj/Debug/netcoreapp2.2/LCS.pdb

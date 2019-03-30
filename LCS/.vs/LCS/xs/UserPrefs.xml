@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{38885136-A81C-4B1B-8B68-3C105A58C8DE}|Default">
+  <MonoDevelop.Ide.ItemProperties.LCS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LCS/Program.cs">
+    <Files>
+      <File FileName="LCS/Program.cs" Line="105" Column="44" />
+      <File FileName="../HashTableStr/HashTableStr/Program.cs" Line="57" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
