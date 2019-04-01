@@ -10,7 +10,7 @@ namespace FinalProj301
     {
         private static List<char>[] hashmap = new List<char>[128];
         private static String inputsource = "";
-        private static String binarycode = "";
+        private static StringBuilder binarycode = new StringBuilder();
         private static List<HuffmanNode> roster = new List<HuffmanNode>();
         private static List<HuffmanNode> rep = new List<HuffmanNode>(); //repository, Save original roster
         static void Main(string[] args)
@@ -37,11 +37,12 @@ namespace FinalProj301
                 {
                     using (StreamReader sr = new StreamReader(fname))
                     {
+                        StringBuilder sb = new StringBuilder();
                         while (!sr.EndOfStream)
                         {
                             String line = sr.ReadLine();
                             line = line + '\n';
-                            inputsource = inputsource + line;
+                            sb.Append(line);
                             foreach (char c in line)
                             {
                                 int index = ((int)c) % 128;
@@ -52,6 +53,7 @@ namespace FinalProj301
                                 hashmap[index].Add(c);
                             }
                         }
+                        inputsource = sb.ToString();
                         for(int i = 0; i < hashmap.Length; i++)
                         {
                             if(hashmap[i] != null)
@@ -73,25 +75,16 @@ namespace FinalProj301
                  */
                 HuffmanTree();
                 Console.WriteLine("Huffman Tree is ready.");
-                foreach(HuffmanNode huf in roster)
-                {
-                    Console.WriteLine(huf.printInfo());
-                }
                 /*
-                 * Generating Huffman Code (start.)
+                 * Translate Original text to Huffman Code(start.)
                  */
-                foreach(char c in inputsource)
-                {
-                    for(int i = 0; i < roster.Count; i++)
-                    {
-                        if(c == roster[i].getLatter())
-                        {
-                            binarycode = binarycode + roster[i].getFrequency();
-                            break;
-                        }
-                    }
-                }
 
+                foreach (char c in inputsource)
+                {
+                int search = (int)c;
+                    binarycode.Append(roster[BinarySearch(search, 0, roster.Count - 1)].getFrequency());
+                }
+                Console.WriteLine("Binary Code Ready.");
                 /*
                  * Naming file, ensure 8 bit
                  */
@@ -101,7 +94,7 @@ namespace FinalProj301
                 int numofzero = (((int)(binarycode.Length / 8) + 1) * 8) - binarycode.Length;
                 for(int i = 0; i < numofzero; i++)
                 {
-                    binarycode = binarycode + "0";
+                    binarycode.Append("0");
                 }
                 String[] bin_ready = new string[(int)(binarycode.Length / 8)];
                 String trunk = "";
@@ -250,6 +243,29 @@ namespace FinalProj301
                 }
             }
         }
+        /* 
+         * Search: what char you find (in ASCII)
+         * size: total search size (Array Size)
+         * low: start from 0       
+         */
+        public static int BinarySearch(int search, int btm, int size)
+        {
+            int lo = btm;
+            int hi = Math.Max(lo, size + 1);
+            while (lo < hi)
+            {
+                int mid = (lo + hi) / 2;
+                if (search > roster[mid].getASCII())
+                {
+                    hi = mid;
+                }
+                else
+                {
+                    lo = mid + 1;
+                }
+            }
+            return (hi - 1);
+        }
     }
     /*
      * Node Objects Class
@@ -305,6 +321,11 @@ namespace FinalProj301
             return total;
         }
 
+        public int getASCII()
+        {
+            return this.chcode;
+        }
+
         public HuffmanNode getLeft()
         {
             if(left != null)
@@ -358,25 +379,26 @@ namespace FinalProj301
         public String printInfo()
         {
             int i = getCount();
-            String output;
+            StringBuilder output = new StringBuilder();
+            output.Append(this.frequency).Append(" ");
             if (latter == '\n')
             {
-                output = "NL";
+                output.Append("NL");
             }
             else if (latter == '\t')
             {
-                output = "TB";
+                output.Append("TB");
             }
             else if (latter == ' ')
             {
-                output = "SP";
+                output.Append("SP");
             }
             else
             {
-                output = "" + latter;
+                output.Append(latter);
             }
 
-            return frequency + " " + output;
+            return output.ToString();
         }
 
         public int CompareTo(HuffmanNode other)
