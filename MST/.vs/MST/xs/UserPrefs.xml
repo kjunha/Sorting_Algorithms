@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{0C101632-DB5E-4E0F-82FE-3491665552CC}|Default">
+  <MonoDevelop.Ide.ItemProperties.MST PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MST/Program.cs">
+    <Files>
+      <File FileName="MST/Program.cs" Line="123" Column="57" />
+      <File FileName="MST/mst2.txt" Line="1" Column="1" />
+      <File FileName="MST/mst1.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

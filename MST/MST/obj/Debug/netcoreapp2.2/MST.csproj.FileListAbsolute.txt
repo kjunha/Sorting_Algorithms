@@ -1,0 +1,11 @@
+/Users/dexterkim/Projects/MST/MST/bin/Debug/netcoreapp2.2/MST.deps.json
+/Users/dexterkim/Projects/MST/MST/bin/Debug/netcoreapp2.2/MST.runtimeconfig.json
+/Users/dexterkim/Projects/MST/MST/bin/Debug/netcoreapp2.2/MST.runtimeconfig.dev.json
+/Users/dexterkim/Projects/MST/MST/bin/Debug/netcoreapp2.2/MST.dll
+/Users/dexterkim/Projects/MST/MST/bin/Debug/netcoreapp2.2/MST.pdb
+/Users/dexterkim/Projects/MST/MST/obj/Debug/netcoreapp2.2/MST.csprojAssemblyReference.cache
+/Users/dexterkim/Projects/MST/MST/obj/Debug/netcoreapp2.2/MST.csproj.CoreCompileInputs.cache
+/Users/dexterkim/Projects/MST/MST/obj/Debug/netcoreapp2.2/MST.AssemblyInfoInputs.cache
+/Users/dexterkim/Projects/MST/MST/obj/Debug/netcoreapp2.2/MST.AssemblyInfo.cs
+/Users/dexterkim/Projects/MST/MST/obj/Debug/netcoreapp2.2/MST.dll
+/Users/dexterkim/Projects/MST/MST/obj/Debug/netcoreapp2.2/MST.pdb

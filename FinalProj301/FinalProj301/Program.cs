@@ -6,6 +6,10 @@ using System.Text;
 
 namespace FinalProj301
 {
+    /*
+     * Encoding Process: FinalProj301
+     * Decoding Process: FinalProj301_2
+     */
     class Program
     {
         private static List<char>[] hashmap = new List<char>[128];
@@ -127,6 +131,7 @@ namespace FinalProj301
                 {
                     foreach(String s in bin_ready)
                     {
+                        Console.Write(s);
                         byte bin = Convert.ToByte(s, 2);
                         bw.Write(bin);
                     }
@@ -268,14 +273,14 @@ namespace FinalProj301
         }
     }
     /*
-     * Node Objects Class
-     * Field: 
-     * Left, Right Nodes
-     * latter, count, frequency(Huffman)
-     * Method:
-     * Getter Methods
-     */
-    class HuffmanNode:IComparable<HuffmanNode>
+ * Node Objects Class
+ * Field: 
+ * Left, Right Nodes
+ * latter, count, frequency(Huffman)
+ * Method:
+ * Getter Methods
+ */
+    class HuffmanNode : IComparable<HuffmanNode>
     {
         private HuffmanNode left;
         private HuffmanNode right;
@@ -314,7 +319,7 @@ namespace FinalProj301
         public int getCount()
         {
             int total = 0;
-            foreach(int i in count)
+            foreach (int i in count)
             {
                 total = total + i;
             }
@@ -328,7 +333,7 @@ namespace FinalProj301
 
         public HuffmanNode getLeft()
         {
-            if(left != null)
+            if (left != null)
             {
                 return this.left;
             }
@@ -406,5 +411,4 @@ namespace FinalProj301
             return other.chcode.CompareTo(this.chcode);
         }
     }
-
 }
