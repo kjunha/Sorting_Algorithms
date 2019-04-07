@@ -100,24 +100,10 @@ namespace FinalProj301
                 {
                     binarycode.Append("0");
                 }
-                String[] bin_ready = new string[(int)(binarycode.Length / 8)];
-                String trunk = "";
-                for(int i = 0; i < binarycode.Length; i++)
-                {
-                    if (i % 8 == 7)
-                    {
-                        trunk = trunk + binarycode[i];
-                        bin_ready[(int)i / 8] = trunk;
-                        trunk = "";
-                    }
-                    else
-                    {
-                        trunk = trunk + binarycode[i];
-                    }
-                }
                 /*
                  * File Writing process (start.)
                  */
+                StringBuilder trunk = new StringBuilder();
                 using (StreamWriter sw = new StreamWriter(File.Open(fname_out, FileMode.Create)))
                 {
                     foreach(HuffmanNode huf in roster)
@@ -129,11 +115,19 @@ namespace FinalProj301
                 }
                 using (BinaryWriter bw = new BinaryWriter(File.Open(fname_out, FileMode.Append)))
                 {
-                    foreach(String s in bin_ready)
+                    for (int i = 0; i < binarycode.Length; i++)
                     {
-                        Console.Write(s);
-                        byte bin = Convert.ToByte(s, 2);
-                        bw.Write(bin);
+                        if (i % 8 == 7)
+                        {
+                            trunk.Append(binarycode[i]);
+                            byte bin = Convert.ToByte(trunk.ToString(), 2);
+                            bw.Write(bin);
+                            trunk.Clear();
+                        }
+                        else
+                        {
+                            trunk.Append(binarycode[i]);
+                        }
                     }
                 }
                 Console.WriteLine("End of Process");

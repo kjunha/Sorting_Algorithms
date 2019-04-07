@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{02873670-81E5-45DA-B6B7-C3EC827DAFF6}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="FinalProj301_2/Program.cs">
     <Files>
-      <File FileName="FinalProj301_2/Program.cs" Line="161" Column="14" />
+      <File FileName="FinalProj301_2/Program.cs" Line="116" Column="71" />
+      <File FileName="../FinalProj301/FinalProj301/Program.cs" Line="95" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

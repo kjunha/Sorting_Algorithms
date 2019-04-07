@@ -30,12 +30,12 @@ namespace FinalProj301_2
                 Console.WriteLine("This is roster file you called: " + fname);
                 try
                 { 
-                    using(BinaryReader br = new BinaryReader(File.OpenRead(fname)))
+                    using (BinaryReader br = new BinaryReader(File.OpenRead(fname)))
                     {
                         StringBuilder sb = new StringBuilder();
                         bool part1 = true;
                         int binlength = 0;
-                        while(br.PeekChar() != -1)
+                        while(br.BaseStream.Position != br.BaseStream.Length)
                         {
                             /*
                              * Part 1                          
@@ -113,24 +113,32 @@ namespace FinalProj301_2
                 HuffmanNode key = buildHuffmanTree();
                 StringBuilder output = new StringBuilder();
                 HuffmanNode scope = key;
-                foreach(char c in binstring)
+                Console.WriteLine("Huffman Tree Rebuilt Successful!");
+                /*
+                 * File Writing process
+                 */
+                String[] title = fname.Split('.');
+                String fname_out = title[0] + "2.txt";
+                using (StreamWriter sw = new StreamWriter(File.Open(fname_out, FileMode.Create)))
                 {
-                    if(c == '0')
+                    foreach (char c in binstring)
                     {
-                        scope = scope.getLeft();
-                    }
-                    else
-                    {
-                        //Move Right until the end, reset on end
-                        scope = scope.getRight();
-                    }
-                    if (scope.getLeft() == null && scope.getRight() == null)
-                    {
-                        output.Append(scope.getLatter());
-                        scope = key;
+                        if (c == '0')
+                        {
+                            scope = scope.getLeft();
+                        }
+                        else
+                        {
+                            //Move Right until the end, reset on end
+                            scope = scope.getRight();
+                        }
+                        if (scope.getLeft() == null && scope.getRight() == null)
+                        {
+                            sw.Write(scope.getLatter());
+                            scope = key;
+                        }
                     }
                 }
-                Console.WriteLine(output);
                 Console.WriteLine("End of Process");
             }
         }
