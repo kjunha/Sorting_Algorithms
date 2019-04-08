@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Text;
+using System.Diagnostics;
 
 namespace FinalProj301_2
 {
@@ -14,6 +15,8 @@ namespace FinalProj301_2
         private static List<HuffmanNode> tree = new List<HuffmanNode>();
         static void Main(string[] args)
         {
+            Stopwatch stw = new Stopwatch();
+            stw.Start();
             String fname = null; //fname.txt
             Boolean filecheck = true;
             try
@@ -139,7 +142,9 @@ namespace FinalProj301_2
                         }
                     }
                 }
+                Console.WriteLine("Runtime: " + stw.ElapsedMilliseconds.ToString());
                 Console.WriteLine("End of Process");
+                stw.Stop();
             }
         }
         /*

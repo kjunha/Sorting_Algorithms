@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Text;
+using System.Diagnostics;
+
 
 namespace FinalProj301
 {
@@ -19,6 +21,8 @@ namespace FinalProj301
         private static List<HuffmanNode> rep = new List<HuffmanNode>(); //repository, Save original roster
         static void Main(string[] args)
         {
+            Stopwatch stw = new Stopwatch();
+            stw.Start();
             String fname = null; //fname.txt
             Boolean filecheck = true;
             try
@@ -67,7 +71,7 @@ namespace FinalProj301
                                 roster.Add(new HuffmanNode(c, cnt));
                             }
                         }
-                        Console.WriteLine("roster call successful!");
+                        Console.WriteLine(String.Format("{0,-30} | {1,5} ms", "roster call successful!", stw.ElapsedMilliseconds.ToString()));
                     }
                 }
                 catch (FileNotFoundException e)
@@ -78,7 +82,7 @@ namespace FinalProj301
                  * Huffman Tree Build
                  */
                 HuffmanTree();
-                Console.WriteLine("Huffman Tree is ready.");
+                Console.WriteLine(String.Format("{0,-30} | {1,5} ms", "Huffman Tree is ready.", stw.ElapsedMilliseconds.ToString()));
                 /*
                  * Translate Original text to Huffman Code(start.)
                  */
@@ -88,7 +92,7 @@ namespace FinalProj301
                 int search = (int)c;
                     binarycode.Append(roster[BinarySearch(search, 0, roster.Count - 1)].getFrequency());
                 }
-                Console.WriteLine("Binary Code Ready.");
+                Console.WriteLine(String.Format("{0,-30} | {1,5} ms", "Binary Code Ready.", stw.ElapsedMilliseconds.ToString()));
                 /*
                  * Naming file, ensure 8 bit
                  */
@@ -104,6 +108,7 @@ namespace FinalProj301
                  * File Writing process (start.)
                  */
                 StringBuilder trunk = new StringBuilder();
+                String bc = binarycode.ToString();
                 using (StreamWriter sw = new StreamWriter(File.Open(fname_out, FileMode.Create)))
                 {
                     foreach(HuffmanNode huf in roster)
@@ -115,22 +120,24 @@ namespace FinalProj301
                 }
                 using (BinaryWriter bw = new BinaryWriter(File.Open(fname_out, FileMode.Append)))
                 {
-                    for (int i = 0; i < binarycode.Length; i++)
+                    for (int i = 0; i < bc.Length; i++)
                     {
                         if (i % 8 == 7)
                         {
-                            trunk.Append(binarycode[i]);
+                            trunk.Append(bc[i]);
                             byte bin = Convert.ToByte(trunk.ToString(), 2);
                             bw.Write(bin);
                             trunk.Clear();
                         }
                         else
                         {
-                            trunk.Append(binarycode[i]);
+                            trunk.Append(bc[i]);
                         }
                     }
                 }
+                Console.WriteLine(String.Format("{0,-30} | {1,5} ms", "Run Time", stw.ElapsedMilliseconds.ToString()));
                 Console.WriteLine("End of Process");
+                stw.Stop();
             }
         }
         /*
